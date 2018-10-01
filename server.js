@@ -17,44 +17,4 @@ let options = {
   });
 
 
-// var PythonShell = require('python-shell');
 
-// var options = {
-//     mode: 'text',
-//     args: ['my First Argument']
-// };
-
-// PythonShell.run('script.py', options, function (err, results) {
-//     if (err) throw err;
-//     // results is an array consisting of messages collected during execution
-//     console.log('results: %j', results);
-// });
-
-
-// // The path to your python script
-// var myPythonScript = "D:/21-18/desktop/rps/python-node-integration";
-// // Provide the path of the python executable, if python is available as environment variable then you can use only "python"
-// var pythonExecutable = "C:/Users/SAAHIL/AppData/Local/Programs/Python/Python37/python.exe";
-
-// // Function to convert an Uint8Array to a string
-// var uint8arrayToString = function(data){
-//     return String.fromCharCode.apply(null, data);
-// };
-
-// const spawn = require('child_process').spawn;
-// const scriptExecution = spawn(pythonExecutable, [myPythonScript]);
-
-// // Handle normal output
-// scriptExecution.stdout.on('data', (data) => {
-//     console.log(uint8arrayToString(data));
-// });
-
-// // Handle error output
-// scriptExecution.stderr.on('data', (data) => {
-//     // As said before, convert the Uint8Array to a readable string.
-//     console.log(uint8arrayToString(data));
-// });
-
-// scriptExecution.on('exit', (code) => {
-//     console.log("Process quit with code : " + code);
-// });
